@@ -1,0 +1,7 @@
+[Var]
+n: 5~5
+x: 1~99
+
+[Format]
+drept(n,x,' ')
+

@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 setup(
     name='tcmaker',
-    version='0.0.3',
+    version='0.0.7',
     description='testcase maker for online judge',
     long_description=long_description,
     long_description_content_type="text/markdown",

@@ -44,6 +44,7 @@ class tcmaker:
             name, range_str = line.split(':')
             min_val, max_val = range_str.strip().split('~')
             self.variables[name.strip()] = (self.convert_value(min_val), self.convert_value(max_val))
+            self.dicVar[name.strip()] = self.generate_value(name.strip())
         
         return self.variables, format_section
     
@@ -96,7 +97,8 @@ class tcmaker:
             else:
                 for var_name in self.variables:
                     if var_name in line:
-                        line = line.replace(var_name, str(self.generate_value(var_name)))
+                        line = line.replace(var_name, self.dicVar[var_name])
+                        
                     
                 output.append(line)
         return '\n'.join(output)
