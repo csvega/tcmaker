@@ -124,6 +124,5 @@ if __name__ == '__main__':
     input_file = f'test.in'
     output_file = f'test.out'
     run_file = f'solve.py'
-    terminal = 'PowerShell'
+    terminal = 'PowerShell'    # or anything
     tcm.generate(format_file, input_file, output_file, run_file, terminal)
-    
