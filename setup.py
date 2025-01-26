@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Simple_Testcase_Maker',
+    name='tcmaker',
     version='0.0.1',
-    description='tcmaker package creation written by csvega',
+    description='testcase maker for online judge',
     author='csvega',
     author_email='vega4792@gmail.com',
     url='https://github.com/csvega/tcmaker',
