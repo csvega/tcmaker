@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Simple Testcase Maker',
+    name='Simple_Testcase_Maker',
     version='0.0.1',
     description='tcmaker package creation written by csvega',
     author='csvega',
